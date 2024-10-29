@@ -1,0 +1,68 @@
+body  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+}
+
+
+.loading  {
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+   
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading, .loading::before {
+    border-radius: 100%;
+
+}
+.loading .line {
+    width: 20px;
+    height: 80%;
+    position: absolute;
+    background: gray;
+    transform-origin: 50% 100%;
+    
+
+    animation: rotate 5s ease-in-out  infinite;
+
+    animation-delay: 500ms;
+
+    top:-30%;
+
+}
+
+
+
+@keyframes rotate {
+    100% {
+        width: 0px;
+        transform:rotateZ(360deg);
+    }
+    50% {
+        width: 500px;
+    }
+
+    0% {
+        width: 0px;
+    }
+    
+}
+ .loading::before {
+    content: '';
+    position: absolute;
+    background: black;
+    width: 95%;
+    aspect-ratio: 1 /1;
+    z-index: 100;
+
+    
+}  

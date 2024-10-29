@@ -1,0 +1,292 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--color-praymeri-dark);
+  background-color: var(--color-bagraundpr-light);
+  font-family: 'Roboto', Regular ;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+a {
+  display: inline-block;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+:root {
+    --color-praymeri-dark:  #151515;
+    --color-praymeri-light: #faf4ea;
+    --color-begraund-car: #E9DFCA;
+    --color-begraund-favover: #90A0B3;
+    --color-bagraund-sub: #EBC288;
+    --color-bagraund-foner: #A15842;
+    --color-bagraundpr-light: #F9F2E8;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.containerty {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.heder {
+  background-image: url(./img/IMAGE.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 800px;
+}
+
+.heder__logo {
+ color: var(--color-praymeri-light);
+ padding-top: 730px;
+ text-align: center;
+}
+
+.vehicl-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 100px 0;
+}
+
+.vehicl-logo {
+  font-size: 29px;
+  max-width: 383px;
+}
+
+.vehicl-text {
+  max-width: 445px;
+}
+
+.vehicl-ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.vehicl-li {
+  width: 568px;
+  height: 387px;
+  background-color: var(--color-begraund-car);
+  background-image: url(./img/sira.png);
+  padding: 25px;
+}
+
+.corr {
+  background-image: url(./img/zovta.png);
+}
+
+.cars-text {
+  font-size: 18px;
+  padding-bottom: 250px;
+}
+
+.button__vehicl-buttonbil {
+  border: 1px solid var(--color-praymeri-dark);
+  padding: 10px 15px;
+  transition: background-color 1s;
+  background-color: transparent;
+}
+
+.button__vehicl-buttonbil:hover {
+  color: var(--color-praymeri-light);
+  background-color: var(--color-praymeri-dark);
+}
+
+.button__vehicl-buttonblek {
+  border:  1px solid 1px;
+  padding: 10px 15px;
+  color: var(--color-praymeri-light);
+  background-color: var(--color-praymeri-dark);
+  transition: background-color 1s, color 1s ;
+}
+
+.button__vehicl-buttonblek:hover {
+  color: var(--color-praymeri-dark);
+  background-color: transparent;
+}
+
+.fover-section {
+  background-image: url(./img/fover.png);
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-praymeri-light);
+}
+
+.fover-logo {
+  font-size: 14px;
+  padding-top: 100px;
+}
+
+.fover-container {
+  width: 944px;
+  height: 585px;
+  background-color: var(--color-begraund-favover);
+  align-items: center;
+  justify-content: center;
+}
+
+.fover_box-text {
+  padding-top: 20px;
+}
+
+.fover-box-logo {
+  font-size: 88px;
+  text-align: center;
+  padding-top: 35px;
+  margin: 0;
+  padding-bottom: 0;
+  height: 88px;
+}
+
+.fover-con {
+width: 944px;
+display: block;
+}
+
+.fover-box-pidtext {
+  font-size: 20PX;
+  padding-left: 120px;
+  padding-top: 40px;
+}
+
+.fover-box-button {
+  text-align: center;
+}
+
+.fover-knop {
+  text-decoration: none;
+  color: var(--color-praymeri-dark);
+  font-size: 20px;
+}
+
+.fover-endbox {
+  display: flex;
+  padding-top: 25px;
+}
+
+.fover-endbox-endtext {
+  margin: 0 0 0 auto;
+}
+
+.kyson-section {
+  background-image: url(./img/kuso.png);
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: cover;
+}
+
+.kyson-text {
+  color: var(--color-praymeri-light);
+  padding-top: 740px;
+}
+
+.lastes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.lastes {
+  padding-right: 130px;
+}
+
+.lastes-logo {
+  font-size: 44px;
+}
+
+.container__lastes-text {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.container__lastes-logo {
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+
+.button__lastes-buttonblek {
+  border:  1px solid 1px;
+  padding: 15px 25px;
+  color: var(--color-praymeri-light);
+  background-color: var(--color-praymeri-dark);
+  transition: background-color 1s, color 1s ;
+  font-size: 22px;
+}
+
+.button__lastes-buttonblek:hover {
+  color: var(--color-praymeri-dark);
+  background-color: transparent;
+} 
+
+.subur-section {
+  background-color: var(--color-bagraund-sub);
+  height: 160px;
+}
+
+.subur {
+  display: flex;
+  gap: 25px;
+  text-align: center;
+  align-items: center;
+}
+
+.subur-logo {
+  width: 370px;
+  font-size: 22px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-right: 50px;
+}
+
+.subur-text {
+  font-size: 14px;
+  
+}
