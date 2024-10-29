@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+   color: aliceblue;
+}
+
+.video-bagr {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.box-form {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: rgba(70, 69, 69, 0.8);
+    border: 1px solid rgba(70, 69, 69, 0.8);
+    border-radius:14px;
+    width: 400px;
+    height: 550px;
+    z-index: 2;
+}
+
+.form-logo {
+    font-size: 44px;
+    font-family: "Montserrat", serif ;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+/*.form-contakt {
+    padding-left: 25px;
+}*/
+
+.contact-section__form-field {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+.nume-text {
+    padding: 13px 24px;
+    font-size: 16px;
+    width: 70%;
+    line-height: 1.17;
+    border: 1px solid #ece9d2;
+    border-radius: 8px;
+    background-color: #ece9d2;
+}
+
+.nume-eml {
+    padding: 13px 24px;
+    font-size: 16px;
+    width: 70%;
+    line-height: 1.17;
+    border: 1px solid #ece9d2;
+    border-radius: 8px;
+    background-color: #ece9d2;
+}
+
+.form-logtext {
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+}
+
+.nume-date {
+    width: 70%;
+    padding: 13px 24px;
+    border-radius: 8px;
+    border: 1px solid #ece9d2;
+    background-color: #ece9d2;
+}
+
+.cnop-box {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+
+.knip-knop {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contakt-selekter {
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 20px;
+    color: black;
+    margin-right: 25px;
+    font-size: 12px;
+    border-radius: 8px;
+    font-weight: 700px;
+    font-family:"Montserrat", serif;
+    transition: all 1s ease-in;
+}
+
+.contakt-selekter:hover {
+    color: aliceblue;
+    background-color: black;
+    border: 1px solid black;
+    
+}
+
+.contakt-delit {
+    background-color: black;
+    border: 1px solid black;
+    padding: 12px 20px;
+    color: aliceblue;
+    font-size: 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-family:"Montserrat", serif;
+    transition: all 1s ease-in;
+}
+
+.contakt-delit:hover {
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
+}
+
+.form-text {
+    text-align: center;
+    font-family: "Open Sans", serif;
+}
+
+.form-terms__link {
+    color: rgb(184, 127, 106);
+}

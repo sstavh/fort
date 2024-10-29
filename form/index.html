@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>form</title>
+</head>
+<body>
+    <div class="container">
+      <video class="video-bagr" autoplay muted loop id="myVideo">
+        <source class="video-bagr" src="./imgs/74450-552602288_medium.mp4" type="video/mp4">
+      </video>
+
+      
+        <div class="box-form">
+            <h1 class="form-logo">Заповніть форму</h1>
+            <form action="https://httpbin.org/get" method="get"  class="form-contakt" name="form-contakt" autocomplete="off">
+                <div class="contact-section__form-field input">
+                  <label class="form-nume visually-hidden" for="user-name">
+                    Імʼя
+                  </label>
+                  <input
+                    class="nume-text"
+                    type="text"
+                    name="user-name"
+                    placeholder="Імʼя"
+                    id="user-name"
+                    required
+                  />
+                </div>
+
+                
+
+                <div class="contact-section__form-field input">
+                  <label class="form-email visually-hidden" for="user-email">
+                    Електронна пошта
+                  </label>
+                  <input
+                    class="nume-eml"
+                    type="email"
+                    name="user-email"
+                    id="user-email"
+                    placeholder="Електронна пошта"
+                    required
+                  />
+                </div>
+
+                <div class="contact-section__form-field input">
+                  <label class="form-data visually-hidden" for="user-tel">
+                    Дата народження
+                  </label>
+                  <input
+                    class="nume-date"
+                    type="date"
+                    name="user-tel"
+                    id="user-tel"
+                    placeholder="Дата народження"
+                    pattern="^\+[0-9]{12}"
+                    required
+                  />
+                </div>
+                <!--<div class="contact-section__form-field input">
+                    <label class="form-text" for="user-text">Повідомлення</label>
+                    <textarea class="form-text__window" name="text" ></textarea>
+                </div>-->
+                <div class="cnop-box">
+                    <button class="contakt-selekter" id="send" type="submit">Надіслати</button>
+                    <button class="contakt-delit" type="reset">Очистити</button>
+                </div>
+                <div class="form-text">
+                  <p class="form-terms">
+                    Натискаючи на кнопку я погоджуюсь з<br>
+                    <a class="form-terms__link" href="https://policies.google.com/privacy?hl=uk">
+                      політикою конфіденційності
+                    </a>
+                  </p>
+                </div>
+              </form>
+        </div>
+       
+    </div>
+
+
+
+
+    <script src="./script/main.js"></script>
+</body>
+</html>
