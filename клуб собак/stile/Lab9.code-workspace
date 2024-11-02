@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Lab9"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "клуб собак"
+	}
+}
